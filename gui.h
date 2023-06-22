@@ -24,8 +24,10 @@
 // Interactive keys
 #define UP_KEY   'w'
 #define DOWN_KEY  's'
-#define RIGHT_KEY  'd'
-#define LEFT_KEY  'a'
+#define EAST_KEY  '6'
+#define WEST_KEY  '4'
+#define NORTH_KEY  '8'
+#define SOUTH_KEY  '2'
 #define UPSPEED_KEY  'e'
 #define DOWNSPEED_KEY 'q'
 #define GAIN_INC_KEY 't'
