@@ -360,20 +360,36 @@ int main(int argc, char** argv) {
                 case 267: // F3
                     gui_top_panel(KF_FIX);
                     break;
-                case WEST_KEY:
-                    simulator.target.bearing = 270000.0;
+                case NORTH_KEY:
+                    simulator.target.bearing = 0.0;
+                    gui_show_heading((float) (simulator.target.bearing / 1000));
+                    break;
+                case NORTH_EAST_KEY:
+                    simulator.target.bearing = 45000.0;
                     gui_show_heading((float) (simulator.target.bearing / 1000));
                     break;
                 case EAST_KEY:
                     simulator.target.bearing = 90000.0;
                     gui_show_heading((float) (simulator.target.bearing / 1000));
                     break;
-                case NORTH_KEY:
-                    simulator.target.bearing = 0.0;
+                case SOUTH_EAST_KEY:
+                    simulator.target.bearing = 135000.0;
                     gui_show_heading((float) (simulator.target.bearing / 1000));
                     break;
                 case SOUTH_KEY:
                     simulator.target.bearing = 180000.0;
+                    gui_show_heading((float) (simulator.target.bearing / 1000));
+                    break;
+                case SOUTH_WEST_KEY:
+                    simulator.target.bearing = 225000.0;
+                    gui_show_heading((float) (simulator.target.bearing / 1000));
+                    break;
+                case WEST_KEY:
+                    simulator.target.bearing = 270000.0;
+                    gui_show_heading((float) (simulator.target.bearing / 1000));
+                    break;
+                case NORTH_WEST_KEY:
+                    simulator.target.bearing = 315000.0;
                     gui_show_heading((float) (simulator.target.bearing / 1000));
                     break;
                 case UP_KEY:
