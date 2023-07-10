@@ -81,6 +81,16 @@ With ADLAM-PLUTO support: `make all PLUTOSDR=yes` (depends on libiio and libad93
 
 Full SDR support: `make all HACKRFSDR=yes PLUTOSDR=yes`
 
+#### Download the rinex file
+
+Give the permission for the first use: `chmod +x rinex.sh`
+
+Download the lastest ephemeris file:
+
+```
+$./rinex.sh
+```
+
 ### Usage
 
 ````
