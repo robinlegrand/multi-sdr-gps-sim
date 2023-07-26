@@ -254,8 +254,8 @@ static void init_windows(void) {
     mvwprintw(window[HELP], 2, 2, "w   Increase altitude     i    Info");
     mvwprintw(window[HELP], 3, 2, "s   Decrease altitude     h    Help");
     mvwprintw(window[HELP], 4, 2, "d   Heading right         x    Exit");
-    mvwprintw(window[HELP], 5, 2, "a   Heading left          F1   Setup Window");
-    mvwprintw(window[HELP], 6, 2, "e   Increase speed        F2   Status Window");
+    mvwprintw(window[HELP], 5, 2, "8~N 6~E 2~S 4~W           F1   Setup Window");
+    mvwprintw(window[HELP], 6, 2, "9~N/E for example         F2   Status Window");
     mvwprintw(window[HELP], 7, 2, "q   Decrease speed        F3   Position Window");
     mvwprintw(window[HELP], 8, 2, "t   Increase TX gain");
     mvwprintw(window[HELP], 9, 2, "g   Decrease TX gain");

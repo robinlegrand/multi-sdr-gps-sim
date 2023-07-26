@@ -36,6 +36,7 @@
 #define DOWNSPEED_KEY 'q'
 #define GAIN_INC_KEY 't'
 #define GAIN_DEC_KEY 'g'
+#define STOP_SPEED '5'
 
 typedef enum {
     TRACK = 0,
